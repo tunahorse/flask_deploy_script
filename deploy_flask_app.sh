@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Update and install necessary packages
-sudo apt update && sudo apt install -y python3 python3-venv nginx
+sudo apt update && sudo apt install -y python3 python3-venv nginx apt python3-pip
 
 # Setup the virtual environment and activate it
 python3 -m venv /root/hellowold/venv
@@ -34,8 +34,10 @@ sudo systemctl daemon-reload
 sudo systemctl restart myflaskapp
 sudo systemctl enable myflaskapp
 
-# Change permissions of the socket to be universally accessible
+# Change permissions of the socket to be universally accessible, change this if you move to production. 
 sudo chmod 777 /root/hellowold/myflaskackapp.sock
+sudo chmod a+x /root
+sudo chmod a+x /root/hellowold
 
 # Setup Nginx configuration
 cat << EOF | sudo tee /etc/nginx/sites-available/myflaskapp
