@@ -29,7 +29,7 @@ The script will do the following.
 3. run script with /dir name. Ive made a simple flask app for a demo.
    
     ```bash
-   ./deploy_flask.sh helloworld
+    ./deploy_flask_app.sh helloworld/
 
       
      
