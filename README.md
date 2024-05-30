@@ -22,7 +22,7 @@ The script will do the following.
    ```bash
    git clone https://github.com/tunahorse/flask_deploy_script.git
    cd flask_deploy_script
-   chmod +x deploy_flask.sh
+   chmod +x deploy_flask_app.sh
 
   
 
