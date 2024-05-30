@@ -8,7 +8,7 @@ python3 -m venv /root/helloworld/venv
 source /root/helloworld/venv/bin/activate
 
 # Install Flask and Gunicorn within the virtual environment
-pip install flask gunicorn
+pip install Flask gunicorn
 
 # Remove the default nginx configuration
 sudo rm /etc/nginx/sites-enabled/default
