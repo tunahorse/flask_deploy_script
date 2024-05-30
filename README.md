@@ -27,10 +27,9 @@ The script will do the following.
 
   
 
-3. run script with /dir name. Ive made a simple flask app for a demo.
+2. run script with /dir name. Ive made a simple flask app for a demo.
    
     ```bash
     ./deploy_flask_app.sh helloworld/
 
-      
-     
+3.  After this you can change the contents in helloworld/ to your own flask app or run the script with another dir/ just replace and find script with the right file path.    
